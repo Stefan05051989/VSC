@@ -1,0 +1,95 @@
+drumcode backup : 
+
+CSS : 
+*
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+
+.page{
+    justify-content: center;
+    align-items: center;    
+    width: 50%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    grid-gap: 3px;
+    margin: 3px;
+    padding: 1px;
+    border: 3px solid green;
+    align-items: center;
+}
+.flex-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 600px;
+    border-radius: 10px;
+}
+.item button{
+    background-color: #e0e0e0;
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+HTML : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drumcode</title>
+    <link rel="stylesheet" href="Drumcode.css">
+</head>
+<body>
+    <h1>Let's make sum drums Stefan!</h1>
+    <p>You can change your name here : <button>Click</button></p>
+        <div class="flex-container">
+            <div class="item"><button onclick="myFunction(1)">1</button></div>
+            <div class="item"><button onclick="myFunction(2)">2</button></div>
+            <div class="item"><button onclick="myFunction(3)">3</button></div>
+            <div class="item"><button onclick="myFunction(4)">4</button></div>
+            <div class="item"><button onclick="myFunction(5)">5</button></div>
+            <div class="item"><button onclick="myFunction(6)">6</button></div>
+            <div class="item"><button onclick="myFunction(7)">7</button></div>
+            <div class="item"><button onclick="myFunction(8)">8</button></div>
+            <div class="item"><button onclick="myFunction(9)">9</button></div>
+        </div>
+    <footer>
+        <p>Author: Stefan Kiers</p>
+        <p><a href="mailto:stefankiers@blahblahblah.com">stefankiers@blahblahblah.com</a></p>
+      </footer>
+    <script src="Drumcode.js"></script>
+</body>
+</html>
